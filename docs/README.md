@@ -1,44 +1,56 @@
-# Bataille Navale
+# 🛳️ Bataille Navale
 
-Jeu de bataille navale en Python avec interface Tkinter
+Bienvenue dans **Bataille Navale**, un jeu classique de stratégie développé avec Python et Tkinter. Défiez l'IA et coulez tous ses navires avant qu'elle ne coule les vôtres !
 
-## Navires
+---
 
-- Porte-avions (5 cases)
-- Croiseur (4 cases)
-- 2 Destroyers (3 cases)
-- 2 Sous-marins (2 cases)
+## 🎯 Fonctionnalités
 
-## Prérequis
+- **Placement des navires** : Placez vos navires sur la grille ou laissez l'ordinateur les positionner automatiquement.
+- **Tirs interactifs** : Cliquez pour tirer sur la flotte ennemie.
+- **Effets sonores** : Sons pour les tirs, les navires coulés et la victoire/défaite.
+- **IA réglable** : Modes de difficulté pour l'ordinateur.
 
-- Python 3.7+
-- Tkinter
+---
 
-## Installation
+## 🛠️ Installation
 
-Clonez le dépôt GitHub et installez les dépendances nécessaires.
+### Prérequis
+- Avoir Python 3.10 ou une version supérieure installé sur votre machine.
 
-## Utilisation
+### Étapes
+1. **Téléchargez le projet** : Clonez le dépôt Git ou téléchargez les fichiers directement.
+2. **Accédez au dossier** : Ouvrez un terminal et naviguez jusqu'au dossier du projet.
+3. **Installez les dépendances** : Utilisez la commande `pip install -r requirements.txt` pour installer les modules nécessaires.
 
-Lancez le fichier principal du jeu.
+### ⚠️ Dépendances supplémentaires
 
-## Règles du jeu
+- **Tkinter** : Inclus par défaut avec Python. Si vous rencontrez une erreur liée à `tkinter`, installez-le.
+  
+4. **Lancez le jeu** : Exécutez le fichier principal `main.py` pour démarrer le jeu.
 
-### Placement des navires
-- Clic gauche pour placer
-- Option "Horizontal" pour l'orientation
-- Prévisualisation verte = placement valide
+---
 
-### Phase de jeu
-- Clic sur grille adverse
-- Rouge = touché
-- Bleu = manqué
+## 🎮 Comment jouer ?
 
-## Tests
+1. Placez vos navires manuellement sur la grille ou laissez l'ordinateur les positionner automatiquement.
+2. Cliquez sur les cases de la grille ennemie pour tirer.
+3. Le premier joueur à couler tous les navires adverses gagne !
 
-Utilisez la commande de tests unitaires.
+---
 
-## Structure du projet
+## 📂 Structure du projet
 
-Projet organisé avec des dossiers pour les modèles, contrôleurs, vues et utilitaires.
+Le projet est organisé comme suit :
+
+- **`assets/`** : Contient les fichiers audio pour les effets sonores du jeu (tirs, victoires, défaites, etc.).
+- **`src/`** : Contient le code source, organisé en plusieurs sous-dossiers :
+  - **`controllers/`** : Gère la logique principale du jeu.
+  - **`models/`** : Définit les classes pour les navires, les joueurs et les plateaux.
+  - **`utils/`** : Contient les constantes et configurations globales.
+  - **`views/`** : Implémente l'interface graphique avec Tkinter.
+- **`main.py`** : Le point d'entrée du projet pour démarrer le jeu.
+- **`requirements.txt`** : Liste des dépendances Python nécessaires.
+
+---
 
