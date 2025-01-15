@@ -47,10 +47,10 @@ CELL_STATES = {
 
 # Couleurs utilisées pour chaque type de navire
 SHIP_COLORS = {
-    'Porte-avions': '#4DA8DA',  # Bleu clair
-    'Croiseur': '#47D147',      # Vert
-    'Destroyer': '#FFA500',     # Orange
-    'Sous-marin': '#A9A9A9'     # Gris
+    'Porte-avions': '#666666',  
+    'Croiseur': '#666666',      
+    'Destroyer': '#666666',     
+    'Sous-marin': '#666666'     
 }
 
 # Symboles utilisés pour représenter les navires
